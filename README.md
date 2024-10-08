@@ -10,6 +10,14 @@ Este proyecto es una implementación del clásico juego de plataformas **Super M
 - Phaser 3.55.2 (incluido en el proyecto)
 - html2canvas (incluido en el proyecto)
 
+## Despliegue
+
+- Clonar repositorio
+- Abrir terminal
+- Ejecutar comando `npm install`
+- Ejecutar comando `npm run dev`
+- Abrir navegador y acceder a `http://localhost:5173`
+
 ## Estructura del proyecto
 
 El proyecto se organiza en la siguiente estructura:
@@ -49,10 +57,6 @@ Este proyecto está basado en el trabajo de decapapi.
 
 Si tienes alguna pregunta o necesitas ayuda, no dudes en contactarme en **[fran11799@outlook.com o perfil de GitHub]**.
 
-## Web de la demo:
-
-https://super-mario-bros-85.vercel.app/
-
 ---
 
 # Super Mario Bros 85'
@@ -66,6 +70,14 @@ This project is an implementation of the classic platform game **Super Mario Bro
 - A modern web browser compatible with HTML5 and JavaScript
 - Phaser 3.55.2 (included in the project)
 - html2canvas (included in the project)
+
+## Deployment
+
+- Clone the repository
+- Open the terminal
+- Run the command `npm install`
+- Run the command `npm run dev`
+- Open your browser and go to `http://localhost:5173`
 
 ## Project Structure
 
@@ -104,7 +116,3 @@ This project is based on the work of decapapi.
 ## Contact
 
 If you have any questions or need assistance, feel free to contact me at **[fran11799@outlook.com or GitHub profile]**.
-
-## Demo Website:
-
-https://super-mario-bros-85.vercel.app/
