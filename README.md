@@ -1,5 +1,9 @@
 # Super Mario Bros 85'
 
+![super-mario-bros-85](https://github.com/user-attachments/assets/bf82daa1-76c3-41fc-8351-07da9f00f24c)
+![super-mario-bros-85_3](https://github.com/user-attachments/assets/50f52ec1-2c08-410a-8171-50e954769cad)
+![super-mario-bros-85_6](https://github.com/user-attachments/assets/4f14a587-293e-438f-9e24-21db062c6391)
+
 ## Descripción del proyecto
 
 Este proyecto es una implementación del clásico juego de plataformas **Super Mario Bros** utilizando la biblioteca Phaser para crear un juego en HTML5. El objetivo del juego es recorrer los niveles y rescatar a la princesa Peach de las garras de Bowser.
