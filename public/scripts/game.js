@@ -66,6 +66,12 @@ var controlKeys = {
   FIRE: null,
   PAUSE: null,
 };
+var arrowKeys = {
+  UP: null,
+  DOWN: null,
+  LEFT: null,
+  RIGHT: null,
+};
 
 var score = 0;
 var timeLeft = 300;
@@ -491,6 +497,53 @@ function createControls() {
       : defaultCodes[i];
     controlKeys[keyName] = this.input.keyboard.addKey(keyCode);
   });
+
+  arrowKeys.UP = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.UP);
+  arrowKeys.DOWN = this.input.keyboard.addKey(
+    Phaser.Input.Keyboard.KeyCodes.DOWN
+  );
+  arrowKeys.LEFT = this.input.keyboard.addKey(
+    Phaser.Input.Keyboard.KeyCodes.LEFT
+  );
+  arrowKeys.RIGHT = this.input.keyboard.addKey(
+    Phaser.Input.Keyboard.KeyCodes.RIGHT
+  );
+}
+
+function isJumpPressed(scene) {
+  return (
+    controlKeys.JUMP?.isDown ||
+    arrowKeys.UP?.isDown ||
+    scene.joyStick?.up ||
+    false
+  );
+}
+
+function isDownPressed(scene) {
+  return (
+    controlKeys.DOWN?.isDown ||
+    arrowKeys.DOWN?.isDown ||
+    scene.joyStick?.down ||
+    false
+  );
+}
+
+function isLeftPressed(scene) {
+  return (
+    controlKeys.LEFT?.isDown ||
+    arrowKeys.LEFT?.isDown ||
+    scene.joyStick?.left ||
+    false
+  );
+}
+
+function isRightPressed(scene) {
+  return (
+    controlKeys.RIGHT?.isDown ||
+    arrowKeys.RIGHT?.isDown ||
+    scene.joyStick?.right ||
+    false
+  );
 }
 
 function generateRandomCoordinate(entitie = false, ground = true) {
