@@ -8,6 +8,8 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 ![super-mario-bros-85](https://github.com/user-attachments/assets/bf82daa1-76c3-41fc-8351-07da9f00f24c)
+![super-mario-bros-85_3](https://github.com/user-attachments/assets/50f52ec1-2c08-410a-8171-50e954769cad)
+![super-mario-bros-85_6](https://github.com/user-attachments/assets/4f14a587-293e-438f-9e24-21db062c6391)
 
 ## Quick Navigation
 
